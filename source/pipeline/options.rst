@@ -2,7 +2,7 @@ Options
 =======
 
 To display the options of Mouseflow, please use
-``nextflow run mouseflow -r 2.4.3 --help``.
+``nextflow run mouseflow -r 0.0.0 --help``.
 
 Optional BIDS arguments
 ------------

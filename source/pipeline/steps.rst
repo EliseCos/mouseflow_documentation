@@ -42,4 +42,4 @@ Mousegraphy
     * Local tracking (Optional)
 
 
-The particle filter mousegraphy is performed by default. Three types of seeding are available: WM-GM interface, WM mask or FA.
+The particle filter tractography is performed by default. Three types of seeding are available: WM-GM interface, WM mask or FA.

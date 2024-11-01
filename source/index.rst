@@ -2,10 +2,10 @@ Welcome to the MouseFlow user documentation!
 =============================================
 
 .. note::
-    New release available: 2.4.3.
+    New release available: COMING SOON.
 
 MouseFlow pipeline is developed by the Sherbrooke Connectivity Imaging Lab (`SCIL`_)
-in order to process diffusion MRI dataset from the raw data to the mousegraphy.
+in order to process diffusion MRI dataset from the raw data to the tractography.
 The pipeline is based on Nextflow and Singularity. The goal with this pipeline
 is to be fast and reproducible.
 
@@ -13,9 +13,7 @@ is to be fast and reproducible.
 
 Use MouseFlow in published works should be accompanied by the following citation:
 
-    Theaud, G., Houde, J.-C., Boré, A., Rheault, F., Morency, F., Descoteaux, M.,MouseFlow:
-    A robust, efficient and reproducible diffusion MRI pipeline leveraging Nextflow & Singularity,
-    NeuroImage,  https://doi.org/10.1016/j.neuroimage.2020.116889.
+COMING SOON
 
 Other citations can be added if MouseFlow is used in a publication. Please see :ref:`references`
 

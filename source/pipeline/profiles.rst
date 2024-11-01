@@ -7,7 +7,7 @@ To select one or multiple profiles, please use the ``-profile`` option. For exam
 
 ::
 
-    $> nextflow run mouseflow -r 2.4.3 --input input_folder -profile macos,fully_reproducible -with-singularity singularity_name.sif -resume
+    $> nextflow run mouseflow -r 0.0.0 --input input_folder -profile macos,fully_reproducible -with-singularity singularity_name.sif -resume
 
 Profiles available
 ------------------
@@ -26,11 +26,6 @@ Profiles available
 
 ``cbrain``
     When this profile is used, Nextflow will copy all the output files in publishDir and not use symlinks.
-
-``ABS``
-    When this profile is used, MouseFlow-ABS (Atlas Based Segmentation) is used.
-    This profile must be used for pathological data.
-    The aparc+aseg.nii.gz and wmparc.nii.gz must be in the same space than t1.nii.gz
 
 ``bundling``
     When this profile is used, it will activate custom tracking parameters to improve recobundle results.
