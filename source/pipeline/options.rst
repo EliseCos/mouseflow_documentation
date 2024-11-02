@@ -2,7 +2,23 @@ Options
 =======
 
 To display the options of Mouseflow, please use
-``nextflow run mouseflow --help``.
+``nextflow run mouseflow -r 0.0.0 --help``.
+
+Optional BIDS arguments
+------------
+
+``--bidsignore "bids_ignore_path"`` (default: none)
+  If you want to ignore some subjects/sessions/runs or some files, you can provide an extra bidsignore file.
+  Check: https://github.com/bids-standard/bids-validator#bidsignore
+
+
+``-clean_bids BOOL`` (default: false)
+  If set, it will remove all the participants that are missing any information.
+
+
+``--fs "freesurfer_output_folder"`` (default: none)
+  If you want to run Mouseflow-ABS (Atlas Based Segmentation) combined with a BIDS structure input
+  you need to have this argument.
 
 Options list
 ------------

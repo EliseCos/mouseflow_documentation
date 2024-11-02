@@ -7,7 +7,7 @@ To select one or multiple profiles, please use the ``-profile`` option. For exam
 
 ::
 
-    $> nextflow run mouseflow --input input_folder -profile macos,fully_reproducible -with-singularity singularity_name.sif -resume
+    $> nextflow run mouseflow -r 0.0.0 --input input_folder -profile macos,fully_reproducible -with-singularity singularity_name.sif -resume
 
 Profiles available
 ------------------

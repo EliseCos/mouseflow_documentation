@@ -53,13 +53,13 @@ Download the last release of the Singularity container for MouseFlow:
 
 ::
 
-    $> wget https://scil.usherbrooke.ca/containers/scilus_2.0.2.sif
+    $> wget https://scil.usherbrooke.ca/containers/scilus_1.6.0.sif
 
 Or if you have sudo privileges
 
 ::
 
-    $> sudo singularity build scilus_1.6.0.sif docker://scilus/scilus:2.0.2
+    $> sudo singularity build scilus_1.6.0.sif docker://scilus/scilus:1.6.0
 
 .. _docker-mouseflow:
 
@@ -73,6 +73,6 @@ Download the last release of the Docker container for MouseFlow:
 
 ::
 
-    $> docker pull scilus/scilus:2.0.2
+    $> docker pull scilus/scilus:1.6.0
 
 Please see :ref:`profiles` section to use `macos` profile.
